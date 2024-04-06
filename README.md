@@ -1,5 +1,7 @@
 <h1 align="center">Java & Python server for APNS</h1>
 
+[English](./README.md) [简体中文](./README_CN.md)
+
 ## what is this?
 
 This is a simple Java or Python server for sending push notifications to iOS devices using apple remote notification server.

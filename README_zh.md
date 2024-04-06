@@ -1,5 +1,7 @@
 <h1 align="center">Java & Python server for APNS</h1>
 
+[English](./README.md) [简体中文](./README_CN.md)
+
 ## 这是什么？
 
 这是一个简单的 Java 或 Python 服务器，用于通过苹果远程通知服务器向 iOS 设备发送推送通知。
