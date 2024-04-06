@@ -4,7 +4,7 @@
 
 ## what is this?
 
-This is a simple Java or Python server for sending push notifications to iOS devices using apple remote notification server.
+This is a simple Java or Python server for puhing remote notifications to iOS devices using apple push notification server(APNS).
 
 ## Before you start
 
@@ -16,7 +16,7 @@ prepare the following:
 -   A valid APNS **device token**
 -   A valid Apple [**Developer Team ID**](https://developer.apple.com/account)
 
-more information about the APNS can be found [here](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_token-based_connection_to_apns)
+more information about the APNS can be found [here](https://developer.apple.com/documentation/usernotifications/sending-push-notifications-using-command-line-tools#Send-a-Push-Notification-Using-a-Certificate)
 
 ## Config
 

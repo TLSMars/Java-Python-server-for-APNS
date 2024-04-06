@@ -4,7 +4,7 @@
 
 ## 这是什么？
 
-这是一个简单的 Java 或 Python 服务器，用于通过苹果远程通知服务器向 iOS 设备发送推送通知。
+这是一个简单的 Java 或 Python 服务器，用于通过苹果远程通知服务器向 iOS 设备推送通知。
 
 ## 开始之前
 
@@ -17,7 +17,7 @@
 -   有效的 APNS **设备令牌**
 -   有效的 Apple [**开发者团队 ID**](https://developer.apple.com/account)
 
-有关 APNS 的更多信息，请参阅[此处](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_token-based_connection_to_apns)。
+有关 APNS 的更多信息，请参阅[此处](https://developer.apple.com/documentation/usernotifications/sending-push-notifications-using-command-line-tools#Send-a-Push-Notification-Using-a-Certificate)。
 
 ## 配置
 
