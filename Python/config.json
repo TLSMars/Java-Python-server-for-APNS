@@ -1,0 +1,7 @@
+{
+    "APNS_URL_DEV": "https://api.sandbox.push.apple.com:443",
+    "APNS_URL": "https://api.push.apple.com:443",
+    "Key_ID": "put your key id here",
+    "Team_ID": "put your team id here",
+    "APNS_TOPIC": "put your package name here"
+}

@@ -1,15 +1,26 @@
+import json
 import time
 
 import httpx
 import jwt
 
-APNS_URL_DEV = "https://api.sandbox.push.apple.com:443"
-APNS_URL = "https://api.push.apple.com:443"
+Key_ID = ""
+Team_ID = ""
+APNS_TOPIC = ""
+APNS_URL_DEV = ""
 
-Device_Token = "put your device token here"  # 64 characters, such as ced1869659ee5c2f827de51072bf9876b1ed8bdfb09e851632255eb0487f59d5
-Key_ID = "put your key id here"  # 10 characters, such as I1RXHQP1Q2
-Team_ID = "put your team id here"  # 10 characters, such as 3AQ915HX79
-APNS_TOPIC = "put your package name here"  # such as com.name.applicationName
+Device_Token = "put your device token here"
+
+
+def Init():
+    # 从config.json打开文件
+    with open("config.json", "r") as file:
+        config = json.load(file)
+        global Key_ID, Team_ID, APNS_TOPIC, APNS_URL_DEV
+        Key_ID = config["Key_ID"]
+        Team_ID = config["Team_ID"]
+        APNS_TOPIC = config["APNS_TOPIC"]
+        APNS_URL_DEV = config["APNS_URL_DEV"]
 
 
 def generate_token():
@@ -25,10 +36,6 @@ def generate_token():
         payload=payload,
     )
     return bash64_signature
-
-
-token = generate_token()
-print(token)
 
 
 def send_notification(token):
@@ -59,6 +66,8 @@ def send_notification(token):
 
 
 if __name__ == "__main__":
+    Init()
+    token = generate_token()
     send_notification(token)
 
 # """

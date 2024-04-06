@@ -31,7 +31,7 @@ more information about the APNS can be found [here](https://developer.apple.com/
     pip install -r  requirements.txt
     ```
 -   change the `AuthKey.p8` file to your key file
--   open `sendNotificationToAPNS.py` and change the following variables:
+-   open `config.json` and change the following variables:
     -   `key_id`
     -   `team_id`
     -   `APNS_TOPIC`

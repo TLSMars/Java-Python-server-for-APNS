@@ -10,7 +10,6 @@
 
 准备以下内容：
 
--
 -   有效的 APNS **证书**
 -   有效的 APNS **密钥**
 -   有效的 APNS **主题** _(可选)_
@@ -32,7 +31,7 @@
     pip install -r requirements.txt
     ```
 -   将 `AuthKey.p8` 文件更改为您的密钥文件
--   打开 `sendNotificationToAPNS.py` 文件并更改以下变量：
+-   打开 `config.json` 文件并更改以下变量：
     -   `key_id`
     -   `team_id`
     -   `APNS_TOPIC`
