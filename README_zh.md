@@ -1,6 +1,6 @@
 <h1 align="center">Java & Python server for APNS</h1>
 
-<p align="center">[English](./README.md) [简体中文](./README_CN.md)</p>
+[English](./README.md) [简体中文](./README_CN.md)
 
 ## 这是什么？
 
