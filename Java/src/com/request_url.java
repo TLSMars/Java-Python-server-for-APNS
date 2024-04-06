@@ -1,5 +1,5 @@
 
-package com.qzh;
+package com;
 
 import java.net.URI;
 import java.net.http.HttpClient;

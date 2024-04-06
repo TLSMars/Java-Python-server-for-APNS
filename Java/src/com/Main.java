@@ -1,4 +1,4 @@
-package com.qzh;
+package com;
 
 import java.io.IOException;
 import java.security.KeyStoreException;
@@ -15,6 +15,6 @@ public class Main {
         String deviceToken = "ced1949617ee5c2f827de51072bf3626b1ed8bdfb09e851631427eb0487f59d5";
         sendNotificationToAPNS sendNotificationToAPNS = new sendNotificationToAPNS().setDev();
         sendNotificationToAPNS.sendNotification(deviceToken,
-                "Hello, this is a test message from QZH", "jsnamdk", "samda", 1);
+                "Hello, this is a test message from xxx", "subtitle", "body", 1);
     }
 }

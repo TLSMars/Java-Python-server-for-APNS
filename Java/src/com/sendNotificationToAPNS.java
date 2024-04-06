@@ -1,7 +1,9 @@
-package com.qzh;
+package com;
 
-import com.qzh.request_url;
 import org.json.JSONObject;
+
+import com.request_url;
+
 import org.json.JSONException;
 import java.io.BufferedInputStream;
 import java.io.FileInputStream;
