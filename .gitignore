@@ -23,6 +23,6 @@ hs_err_pid*
 replay_pid*
 
 # config file
-apple.properties
-AuthKey.p8
-config.json
+*.properties
+*.p8
+*.json
