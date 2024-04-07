@@ -9,7 +9,7 @@ Team_ID = ""
 APNS_TOPIC = ""
 APNS_URL_DEV = ""
 
-Device_Token = "put your device token here"
+Device_Token = "put your device Token here"
 
 
 def Init():
