@@ -43,7 +43,7 @@ public class sendNotificationToAPNS {
         Properties prop = new Properties();
         try {
             InputStream in = new BufferedInputStream(
-                    new FileInputStream("/root/code/StdExpress/com/src/com/qzh/apple.properties"));
+                    new FileInputStream("./apple.properties"));
             prop.load(in);
 
             APNS_CERTIFICATE_PATH = prop.getProperty("APNS_CERTIFICATE_PATH");
